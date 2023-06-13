@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.Navigation-bar {
+    margin: 2px;
+    background-color: blueviolet;
+    height: 80px;
+    width: 1290px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.Nav-item {
+    display: flex;
+    gap: 25px;
+
+}
+
+h1 {
+    color: brown;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+h1:hover {
+    color: aqua;
+}
+
+#result-box {
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+
+
+
+}
+
+
+
+#result-items{
+
+    height: 460px;
+    width: 500px;
+    border: 2px solid purple;
+    text-align: center;
+    border-radius: 10px;
+
+
+}
+
+#removeFav {
+    background-color:plum;
+    border-radius: 20px;
+    height: 30px;
+    width: 180px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+#image {
+    height: 150px;
+    width: 200px;
+    border: 2px solid chocolate;
+    border-radius: 10px;
+}
+
+h2 {
+    color: brown;
+    font-style: italic;
+}
+
+p {
+    color: crimson;
+    font-style: italic;
+}
+
+h5 {
+    text-transform: capitalize;
+    font-style: italic;
+    color: green;
+}
