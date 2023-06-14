@@ -30,7 +30,7 @@ function serachMovie(e){
         <img src=${data.Poster} alt="images" id="image"/><br/><br/>
         <p>Year:${data.Released},Actors: ${data.Actors},Director :${data.Director}</p>
         
-       <a href="fav.html"><button id="addFav">add To Faviourate</button></a>
+       <button id="addFav">add To Faviourate</button>
         <a href='movie.html'><button id="addFav">view details</button></a>
             
             
